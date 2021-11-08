@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B01D3219-E260-4C85-BEA3-51030FCA1B8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C81FF9C-0CCD-4F8B-BD9D-9468673029C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.TeamViewer.Domain", "src\Football.TeamViewer.Domain\Football.TeamViewer.Domain.csproj", "{05259E87-DEB6-40FE-AC1F-EF5353687565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.TeamViewer.Api", "src\Football.TeamViewer.Api\Football.TeamViewer.Api.csproj", "{C62C07F7-86E1-4511-8752-A738F8C9DADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.TeamViewer.Domain.Tests", "tests\Football.TeamViewer.Domain.Tests\Football.TeamViewer.Domain.Tests.csproj", "{69C357E3-1954-4C07-A241-B2FFDB4E8493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.TeamViewer.Application", "src\Football.TeamViewer.Application\Football.TeamViewer.Application.csproj", "{FE56D04A-786B-49C3-843B-15E162351CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.TeamViewer.Persistence", "src\Football.TeamViewer.Persistence\Football.TeamViewer.Persistence.csproj", "{58B0A196-1D24-4621-AD05-6F6A318F910B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05259E87-DEB6-40FE-AC1F-EF5353687565} = {B01D3219-E260-4C85-BEA3-51030FCA1B8C}
+		{C62C07F7-86E1-4511-8752-A738F8C9DADB} = {B01D3219-E260-4C85-BEA3-51030FCA1B8C}
+		{69C357E3-1954-4C07-A241-B2FFDB4E8493} = {8C81FF9C-0CCD-4F8B-BD9D-9468673029C9}
+		{FE56D04A-786B-49C3-843B-15E162351CFB} = {B01D3219-E260-4C85-BEA3-51030FCA1B8C}
+		{58B0A196-1D24-4621-AD05-6F6A318F910B} = {B01D3219-E260-4C85-BEA3-51030FCA1B8C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05259E87-DEB6-40FE-AC1F-EF5353687565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05259E87-DEB6-40FE-AC1F-EF5353687565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05259E87-DEB6-40FE-AC1F-EF5353687565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05259E87-DEB6-40FE-AC1F-EF5353687565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62C07F7-86E1-4511-8752-A738F8C9DADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62C07F7-86E1-4511-8752-A738F8C9DADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62C07F7-86E1-4511-8752-A738F8C9DADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62C07F7-86E1-4511-8752-A738F8C9DADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C357E3-1954-4C07-A241-B2FFDB4E8493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C357E3-1954-4C07-A241-B2FFDB4E8493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C357E3-1954-4C07-A241-B2FFDB4E8493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C357E3-1954-4C07-A241-B2FFDB4E8493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE56D04A-786B-49C3-843B-15E162351CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE56D04A-786B-49C3-843B-15E162351CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE56D04A-786B-49C3-843B-15E162351CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE56D04A-786B-49C3-843B-15E162351CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B0A196-1D24-4621-AD05-6F6A318F910B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B0A196-1D24-4621-AD05-6F6A318F910B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B0A196-1D24-4621-AD05-6F6A318F910B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B0A196-1D24-4621-AD05-6F6A318F910B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

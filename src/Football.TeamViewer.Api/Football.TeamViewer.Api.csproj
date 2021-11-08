@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>aspnet-Football.TeamViewer.Api-988E93AD-BF41-41B3-A784-93283CB6996B</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.6" />
+        <PackageReference Include="Microsoft.Identity.Web" Version="1.1.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Football.TeamViewer.Application\Football.TeamViewer.Application.csproj" />
+      <ProjectReference Include="..\Football.TeamViewer.Persistence\Football.TeamViewer.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
